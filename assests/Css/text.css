@@ -1,0 +1,265 @@
+
+body{
+
+    font-family: 'PT Sans', sans-serif;
+
+    color: #010101;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    direction: ltr;
+
+}
+
+.clear{
+
+    clear: both;
+
+}
+
+.heroSection{
+
+    width: 100%;
+
+    height: auto;
+
+    padding: 52px 0px 100px 0px;
+
+    background: #fcdb00;
+
+    box-sizing: border-box;
+
+}
+
+.container{
+
+    width: 940px;
+
+    margin: 0 auto;
+
+}
+
+.logo{
+
+    width: 50%;
+
+    float: left;
+
+}
+
+.menu{
+
+    width: 50%;
+
+    float: right;
+
+}
+
+.menu ul li{
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    margin-left:50px;
+
+}
+
+.menu ul li a{
+
+    color: #010101;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+.menu ul{
+
+    text-align: right;
+
+}
+
+.menu ul li a:hover{
+
+    text-decoration: underline;
+
+}
+
+.menu ul li:first-child{
+
+    margin-left: 0px;
+
+}
+
+.heroDesc{
+
+    width: 50%;
+
+    float: left;
+
+    padding-top:145px;
+
+    box-sizing: border-box;
+
+
+
+}
+
+.heroImg{
+
+    width:50%;
+
+    float: right;
+
+}
+
+.heroDesc h1{
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+}
+
+.heroDesc h2{
+
+    color: #313841;
+
+    font-size: 20px;
+
+    font-weight: normal;
+
+    padding-right: 85px;
+
+    box-sizing: border-box;
+
+}
+
+.heroDesc p{
+
+    font-size: 16px;
+
+    color: #555555;
+
+    padding-right: 85px;
+
+    box-sizing: border-box;
+
+}
+
+a.link{
+
+    color: #010101;
+
+    font-size: 42px;
+
+    text-decoration: none;
+
+    margin-right: 35px;
+
+}
+
+a.link:last-child{
+
+    margin-right: 0px;
+
+}
+
+.heroImg img{
+
+    margin-top:60px;
+
+    margin-left: 155px;
+
+}
+
+
+
+.section h2{
+    font-height:bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+p .tittleDesc{
+    font-size: 20px;
+    color: black;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.featureIcon{
+    float: left;
+    width: 60px;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding-top: 22px;
+}
+
+.featureitem{
+    float: left;
+    width: 33.3px;
+
+}
+
+.featureDesc{
+    float: right;
+    width: calc( 100% - 60px );
+    box-sizing:border-box;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.featureDesc h3{
+    font-size: 22px;
+}
+.keepsection{
+    background: #010101;
+    text-align: center;
+}
+
+.keepsection h2{
+    color: yellow;
+}
+
+.keepsection p{
+    color: white;
+}
+
+.mailInput{
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 25px;
+    border:0px;
+    width: 500px;
+    font-size: 16px;
+}
+
+.submitInput{
+    background: #fcdb00;
+    color: 010101;
+    width: 130px;
+    height: 50px;
+    border:0px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.keepsection form{
+    text-align: 6px;
+    margin-top: 50px;
+    text-align: center;
+}
